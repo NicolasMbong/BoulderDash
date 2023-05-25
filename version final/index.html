@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="shortcut icon" href="#">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Boulder Craft</title>
+
+</head>
+
+<body>
+    <!--Acceuil-->
+    <div id="accueil">
+        <script src="js/accueil.js" defer></script>
+        <img src="img/Boulder_Dash_Logo.png" />
+        <p><button id="np">Nouvelle Partie</button></p>
+        <p><button id="rp">Reprendre la Partie</button></p>
+        <p><button id="an">Ajouter un niveau</button></p>
+    </div>
+    <!--Nouvelle Partie-->
+    <div id="jeu">
+        <header>
+            <h5>Diamants restant:<div id="Dleft"></div></h5>
+            <h5>Diamants obtenus:<div id="Dgot"></div></h5>
+            <h5>Déplacements:<div id="moves"></div></h5>
+            
+        </header>
+        <p id="bb"><button id="rm">Retourner à l'accueil</button></p>
+        <script src="js/grille.js"></script>
+        <script src="js/moveSet.js"> </script>
+        <div id="grille" > </div>
+        
+    </div>
+    <!--Reprendre la Partie-->
+    <div id="reprendre">
+
+    </div>
+    <!--Ajouter un Niveau-->
+    <div id="niveauSupp">
+        <p>
+        Ajoutez un niveau au format .txt:
+        </p>
+        <input type="file" id="filetoRead" />
+        <textarea id="editor"></textarea><br>
+        <button id="play">Jouer</button>
+        <script src="js/niveauSupp.js"></script>
+    </div> 
+    <!--écran de mort-->
+    <div id="mort">
+        <div>
+            <div id="tampon">   </div>
+            <div id="tampon2">    </div>
+            <p><button id="respawn">Respawn</button></p>  
+            <div id="tampon3">    </div>
+            <p><button id="resume">Accueil</button></p>
+            <script src="js/mort.js"></script>
+        </div>
+    </div>
+
+    <!--
+    <div id="niveau2">
+        <header>
+            <h5>Diamants restant:<div id="Dleft"></div></h5>
+            <h5>Diamants obtenus:<div id="Dgot"></div></h5>
+            <h5>Déplacements:<div id="moves"></div></h5>
+            
+        </header>
+        <script src="js/niveau2.js"></script>
+        <script src="js/moveSet2.js"> </script>
+        <div id="grille2" > </div>
+    </div>
+    -->
+
+    
+
+</body>
+
+</html>

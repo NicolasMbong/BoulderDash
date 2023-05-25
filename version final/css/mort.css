@@ -1,0 +1,50 @@
+#mort{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;    
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/death_screen2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tampon{
+    height: 300px;
+}
+p{
+    margin: 0;
+}
+
+#tampon2{
+    height: 10px;
+}
+
+#tampon3{
+    height: 10px;
+}
+
+button#respawn {
+    
+    color: white;
+    background-color: rgb(102, 100, 100);
+    border-color: black;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    width: 100%;
+}
+
+button#resume {
+    color: white;
+    background-color: rgb(102, 100, 100);
+    border-color: black;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    width: 100%;
+}

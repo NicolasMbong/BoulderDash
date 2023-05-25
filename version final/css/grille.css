@@ -1,0 +1,95 @@
+div.grille{
+    display: flex;
+    flex-direction: column;
+    
+}  
+
+div.ligne{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.grille div> div{
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+div.mur {
+    background-image:url("../img/mur.jpg");
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.terre {
+    background-image:url("../img/terre.jpg");
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.joueur {
+    background-image:url("../img/joueur.png");
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.diamant {
+    background-image:url("../img/diamant.png");
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.rocher {
+    background-image:url("../img/gravier.png");
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.vide {
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p#bb{
+    text-align: center;
+}
+
+button#rm {
+    color: white;
+    background-color: rgb(102, 100, 100);
+    border-color: black;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    width: 50%;
+}

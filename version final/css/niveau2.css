@@ -1,0 +1,7 @@
+#niveau2 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(/img/bg.webp);
+}
