@@ -46,7 +46,7 @@ function afficherGrille() {
 }
 //charge le fichier txt
 function chargerFichier() {
-    fetch("/niveau/first.txt").then((res)=>res.text()).then((text)=>{
+    fetch(" niveau/first.txt").then((res)=>res.text()).then((text)=>{
         fichier=text;
         afficherGrille();
     })
